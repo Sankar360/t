@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(200, 199, 199);
+    gap: 10px;
+}
+
+h1{
+    color: rgb(8, 15, 235);
+    text-transform: capitalize;
+}
+
+input{
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    color: red;
+    box-shadow: 3px 3px 5px;
+    font-size: 16px;
+    font-weight: 500;
+    width: 30%;
+    outline: none;
+}
+
+input::placeholder{
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#msg{
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 500;
+    color: red;
+}
